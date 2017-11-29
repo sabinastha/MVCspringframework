@@ -46,28 +46,7 @@ public class OffersDAO {
 		}
 	});
 	}
-	
-//		@Autowired
-//		private SessionFactory sessionFactory;
-//	
-//		public Session session() {
-//			return sessionFactory.getCurrentSession();
-//		}
-//	
-//	
-	
-//	public List<Offer> getAllOffers() {
-//			return session().createQuery("from Offer").list();
-//		}
-	
-//		public void createWithSession(Offer offer) {
-//	
-//	//		BeanPropertySqlParameterSource params = new BeanPropertySqlParameterSource(offer);
-//			
-//			session().save(offer);
-//		}
-
-	
+		
 	public boolean update(Offer offer) {
 		BeanPropertySqlParameterSource params = new BeanPropertySqlParameterSource(offer);
 

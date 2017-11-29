@@ -27,7 +27,7 @@
     </ul>
   </div>
 </nav>
-<h3> Offer had been Deleted Successfully.</h3>
+
 
 <center>	 
 	<table id="customers"">

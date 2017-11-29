@@ -50,8 +50,8 @@ public class OfferController {
 		
 		
 		List<Offer> offers = offerservice.getCurrent();
-		model.addAttribute("offers", offers);
-		return "offerCreateMessage";
+		model.addAttribute("Offers", offers);
+		return "offerCreated";
 	}
 	
 
@@ -89,7 +89,7 @@ public class OfferController {
 		offerservice.editOffer(offer);
 		List<Offer> offers = offerservice.getCurrent();
 		model.addAttribute("Offers", offers);
-	return "home";
+	return "offerCreated";
 	}
 	
 	@RequestMapping("deleteOffer")

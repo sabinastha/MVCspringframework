@@ -12,7 +12,7 @@
 		<table>
 			<tr>
 				<td>Id</td>
-				<td><input type="text" value="${Offer.id}" name="id"
+				<td><input type="text" value="${offer.id}" name="id"
 						 readonly="true"/></td>
 			</tr>
 			<tr>
